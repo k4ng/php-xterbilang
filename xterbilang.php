@@ -59,18 +59,19 @@
         {
             $temp = xtoword($number / 1000000000000) . " trilyun" . xtoword(fmod($number,1000000000000));
         } 
-        else if($number < 1000000000000000000)
-        {
-            $temp = "Tidak bisa disebutkan, angkanya sekitar (trillion / dwiyar)";
-        } 
-        else if($number < 10000000000000000000000)
-        {
-            $temp = "Tidak bisa disebutkan, angkanya sekitar (quardrillion / tirta)";
-        }
-        else if($number < 1000000000000000000000000000)
-        {
-            $temp = "Tidak bisa di sebutkan, angkanya sekitar (quantillion / triyar)";
-        }
+        // else if($number < 1000000000000000000)
+        // {
+        //     $temp = "Tidak bisa disebutkan, angkanya sekitar (trillion / dwiyar)";
+        // } 
+        // else if($number < 10000000000000000000000)
+        // {
+        //     $temp = "Tidak bisa disebutkan, angkanya sekitar (quardrillion / tirta)";
+        // }
+        // else if($number < 1000000000000000000000000000)
+        // {
+        //     $temp = "Tidak bisa di sebutkan, angkanya sekitar (quantillion / triyar)";
+        // }
+        // else if($number < 10000000000000000000000000)
         // else if($number < 1000000000000000000000000000)
         // {
         //     $temp = "Tidak bisa di sebutkan, angkanya sekitar (sextillion / caturta)";
