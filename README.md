@@ -3,6 +3,8 @@
 ##Intro
 xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka seperti :
 - Satu
+- Belas
+- Puluh
 - Ratus
 - Ribu (Thousand) = 10^3
 - Juta (Million) = 10^6
@@ -28,6 +30,8 @@ xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka sep
 
 ##Dukungan
 - Satu
+- Belas
+- Puluh
 - Ratus
 - Ribu
 - Juta
