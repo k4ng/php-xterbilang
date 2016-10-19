@@ -1,7 +1,7 @@
 #xTerbilang
 
 ##Intro
-Terbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka seperti :
+xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka seperti :
 - Satu
 - Ratus
 - Ribu (Thousand) = 10^3
