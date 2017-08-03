@@ -1,6 +1,6 @@
-#xTerbilang
+# xTerbilang
 
-##Intro
+## Intro
 xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka seperti :
 - Satu
 - Belas
@@ -28,7 +28,7 @@ xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka sep
 - Dasata = 10^60
 - Dasayar = 10^63
 
-##Dukungan
+## Dukungan
 - Satu
 - Belas
 - Puluh
