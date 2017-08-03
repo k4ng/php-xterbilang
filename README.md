@@ -37,3 +37,14 @@ xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka sep
 - Juta
 - Miliyar
 - Trilyun
+
+## Penggunaan
+- Muat terlebih dahulu fungsinya dengan cara ``require('xterbilang.php')``
+- Kemudian selanjutnya panggil fungsi ``numbertoword(num, style)``
+- Pada parameter pertama bemrisi angka yang ingin di ubah kedalam bentuk kata, lalu di parameter kedua berisi gaya penulisan terbilang.
+- Contohnya seperti ini ``echo numbertoword(5000000);`` maka hasilnya akan muncul tulisan ``Lima juta``.
+- Untuk syle atau gaya penulisan terdapat 4 gaya dengan defaultnya bernilai ``4``.
+  - 1 adalah gaya penulisan ``strtoupper()`` => ``LIMA JUTA``
+  - 2 adalah gaya penulisan ``strtolower()`` => ``lima juta``
+  - 3 adalah gaya penulisan ``ucwords()`` => ``Lima Juta``
+  - 4 adalah gaya penulisan ``ucfirst()`` => ``Lima juta``
