@@ -3,7 +3,7 @@
     {
         $number = abs($number);
         $angka = array(
-            "nol", 
+            "", 
             "satu", 
             "dua", 
             "tiga", 
