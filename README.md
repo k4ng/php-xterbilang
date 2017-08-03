@@ -41,7 +41,7 @@ xTerbilang adalah sebuah fungsi untuk membaca angka berdasarkan satuan angka sep
 ## Penggunaan
 - Muat terlebih dahulu fungsinya dengan cara ``require('xterbilang.php')``
 - Kemudian selanjutnya panggil fungsi ``numbertoword(num, style)``
-- Pada parameter pertama bemrisi angka yang ingin di ubah kedalam bentuk kata, lalu di parameter kedua berisi gaya penulisan terbilang.
+- Pada parameter pertama berisi angka yang ingin di ubah kedalam bentuk kata, lalu di parameter kedua berisi gaya penulisan terbilang.
 - Contohnya seperti ini ``echo numbertoword(5000000);`` maka hasilnya akan muncul tulisan ``Lima juta``.
 - Untuk syle atau gaya penulisan terdapat 4 gaya dengan defaultnya bernilai ``4``.
   - 1 adalah gaya penulisan ``strtoupper()`` => ``LIMA JUTA``
